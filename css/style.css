@@ -56,20 +56,20 @@ img{
   cursor: pointer;
 }
 /* ===== banner style ends ===== */
+/* ===== main area style starts ===== */
+main{
+  width: 1140px;
+  margin: 0 auto;
+}
 /* ===== failure style starts ===== */
 #failure{
   margin: 100px 0;
 }
 .failure-contents{
-  width: 1140px;
-  margin: 0 auto;
   display: flex;
   align-items: center;
   gap: 50px;
 }
-/* .failure-con-img img{
-  width: 100%;
-} */
 .failure-heading{
   color: #151414;
   font-weight: 700;
@@ -98,3 +98,4 @@ img{
   margin-right: 5px;
 }
 /* ===== failure style ends ===== */
+/* ===== main area style ends ===== */
