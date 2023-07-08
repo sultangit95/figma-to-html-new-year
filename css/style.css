@@ -1,4 +1,4 @@
-/* ===== common css starts ===== */
+/* ===== common style starts ===== */
 *{
   margin: 0;
   padding: 0;
@@ -14,7 +14,8 @@ a{
 img{
   vertical-align: middle;
 }
-/* ===== common css ends ===== */
+/* ===== common style ends ===== */
+/* ===== heading area style starts ===== */
 /* ===== banner style starts ===== */
 #banner{
   background: url("../images/banner/banner1.png");
@@ -56,6 +57,7 @@ img{
   cursor: pointer;
 }
 /* ===== banner style ends ===== */
+/* ===== heading area style ends ===== */
 /* ===== main area style starts ===== */
 main{
   width: 1140px;
@@ -128,6 +130,36 @@ main{
   font-size: 16px;
 }
 /* ===== plans style ends ===== */
+/* ===== calls style starts ===== */
+#calls{
+  background: linear-gradient(to right, #F15B22, rgba(0, 0, 0, 0)), url('../images/watch.png');
+  background-repeat: no-repeat;
+  margin: 120px 0;
+  padding: 70px 50px;
+  border-radius: 10px;
+}
+.calls-heading{
+  color: #fff;
+  font-weight: 700;
+  font-size: 36px;
+  padding-right: 500px;
+}
+.btn-second{
+  background: #ffffff;
+  border: none;
+  color: #F15B22;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 25px;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: .3s;
+}
+.btn-second:hover{
+  box-shadow: 0px 0px 10px #151414;
+  cursor: pointer;
+}
+/* ===== calls style ends ===== */
 
 
 
