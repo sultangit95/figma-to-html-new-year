@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
 }
 ul,ol{
   list-style: none;
@@ -14,3 +15,44 @@ img{
   vertical-align: middle;
 }
 /* ===== common css ends ===== */
+/* ===== banner style starts ===== */
+#banner{
+  background: url("../images/banner/banner1.png");
+  background-repeat: no-repeat;
+  padding: 250px 0;
+}
+.banner-contents{
+  width: 1140px;
+  margin: 0 auto;
+  text-align: right;
+}
+.banner-heading{
+  color: #151414;
+  font-size: 60px;
+  font-weight: 700;
+  padding-left: 600px;
+}
+.banner-para{
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-left: 650px;
+  margin-top: 20px;
+}
+.btn-primary{
+  background: #F15B22;
+  border: none;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 25px;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: .3s;
+}
+.btn-primary:hover{
+  box-shadow: 0px 0px 10px #151414;
+  cursor: pointer;
+}
+/* ===== banner style ends ===== */
