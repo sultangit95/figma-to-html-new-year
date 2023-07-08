@@ -98,4 +98,40 @@ main{
   margin-right: 5px;
 }
 /* ===== failure style ends ===== */
+/* ===== plans style starts ===== */
+#plans{
+  margin: 60px 0;
+}
+.plans-heading{
+  color: #151414;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.plans-contents{
+  display: flex;
+  justify-content: space-between;
+}
+.plans-items{
+  text-align: center;
+}
+.plans-items-heading{
+  color: #151414;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 10px 0;
+}
+.plans-items-para{
+  color: #444343;
+  font-weight: 400;
+  font-size: 16px;
+}
+/* ===== plans style ends ===== */
+
+
+
+
+
+
 /* ===== main area style ends ===== */
