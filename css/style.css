@@ -56,3 +56,45 @@ img{
   cursor: pointer;
 }
 /* ===== banner style ends ===== */
+/* ===== failure style starts ===== */
+#failure{
+  margin: 100px 0;
+}
+.failure-contents{
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+/* .failure-con-img img{
+  width: 100%;
+} */
+.failure-heading{
+  color: #151414;
+  font-weight: 700;
+  font-size: 36px;
+  padding-right: 250px;
+  margin-top: 100px;
+}
+.failure-para{
+  color: #444343;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding-right: 150px;
+  margin: 20px 0;
+}
+.failure-list{
+  color: #444343;
+  font-weight: 400;
+  font-size: 16px;
+}
+.failure-list li{
+  margin-bottom: 10px;
+}
+.failure-list li i{
+  color: #16D887;
+  margin-right: 5px;
+}
+/* ===== failure style ends ===== */
